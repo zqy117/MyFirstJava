@@ -1,0 +1,354 @@
+
+
+2014-10-28 15:45:43,469DEBUG[org.jboss.logging]-Logging Provider: org.jboss.logging.Log4jLoggerProvider
+
+
+2014-10-28 15:45:43,516DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration boolean -> org.hibernate.type.BooleanType@50aa1830
+
+
+2014-10-28 15:45:43,516DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration boolean -> org.hibernate.type.BooleanType@50aa1830
+
+
+2014-10-28 15:45:43,516DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@50aa1830
+
+
+2014-10-28 15:45:43,518DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7f301d8d
+
+
+2014-10-28 15:45:43,521DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration true_false -> org.hibernate.type.TrueFalseType@41796abe
+
+
+2014-10-28 15:45:43,523DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration yes_no -> org.hibernate.type.YesNoType@2471fd20
+
+
+2014-10-28 15:45:43,527DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration byte -> org.hibernate.type.ByteType@78e8a591
+
+
+2014-10-28 15:45:43,528DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration byte -> org.hibernate.type.ByteType@78e8a591
+
+
+2014-10-28 15:45:43,528DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@78e8a591
+
+
+2014-10-28 15:45:43,530DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration character -> org.hibernate.type.CharacterType@2a5d56af
+
+
+2014-10-28 15:45:43,531DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration char -> org.hibernate.type.CharacterType@2a5d56af
+
+
+2014-10-28 15:45:43,531DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2a5d56af
+
+
+2014-10-28 15:45:43,535DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration short -> org.hibernate.type.ShortType@5eab5809
+
+
+2014-10-28 15:45:43,536DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration short -> org.hibernate.type.ShortType@5eab5809
+
+
+2014-10-28 15:45:43,536DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5eab5809
+
+
+2014-10-28 15:45:43,538DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration integer -> org.hibernate.type.IntegerType@6ff0ccc2
+
+
+2014-10-28 15:45:43,538DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration int -> org.hibernate.type.IntegerType@6ff0ccc2
+
+
+2014-10-28 15:45:43,539DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6ff0ccc2
+
+
+2014-10-28 15:45:43,543DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration long -> org.hibernate.type.LongType@236a2ae6
+
+
+2014-10-28 15:45:43,543DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration long -> org.hibernate.type.LongType@236a2ae6
+
+
+2014-10-28 15:45:43,543DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Long -> org.hibernate.type.LongType@236a2ae6
+
+
+2014-10-28 15:45:43,546DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration float -> org.hibernate.type.FloatType@102e6640
+
+
+2014-10-28 15:45:43,546DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration float -> org.hibernate.type.FloatType@102e6640
+
+
+2014-10-28 15:45:43,546DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Float -> org.hibernate.type.FloatType@102e6640
+
+
+2014-10-28 15:45:43,548DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration double -> org.hibernate.type.DoubleType@4a2c1b1c
+
+
+2014-10-28 15:45:43,548DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration double -> org.hibernate.type.DoubleType@4a2c1b1c
+
+
+2014-10-28 15:45:43,548DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4a2c1b1c
+
+
+2014-10-28 15:45:43,551DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@68860b1d
+
+
+2014-10-28 15:45:43,551DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@68860b1d
+
+
+2014-10-28 15:45:43,553DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4424f1a9
+
+
+2014-10-28 15:45:43,554DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4424f1a9
+
+
+2014-10-28 15:45:43,555DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration string -> org.hibernate.type.StringType@71e606a9
+
+
+2014-10-28 15:45:43,555DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.String -> org.hibernate.type.StringType@71e606a9
+
+
+2014-10-28 15:45:43,556DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3a4dd592
+
+
+2014-10-28 15:45:43,558DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@26c69727
+
+
+2014-10-28 15:45:43,559DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration url -> org.hibernate.type.UrlType@8cf76c0
+
+
+2014-10-28 15:45:43,559DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.net.URL -> org.hibernate.type.UrlType@8cf76c0
+
+
+2014-10-28 15:45:43,561DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration date -> org.hibernate.type.DateType@7561af7c
+
+
+2014-10-28 15:45:43,561DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.Date -> org.hibernate.type.DateType@7561af7c
+
+
+2014-10-28 15:45:43,563DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration time -> org.hibernate.type.TimeType@1db88745
+
+
+2014-10-28 15:45:43,563DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1db88745
+
+
+2014-10-28 15:45:43,565DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration timestamp -> org.hibernate.type.TimestampType@3f611531
+
+
+2014-10-28 15:45:43,565DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3f611531
+
+
+2014-10-28 15:45:43,566DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3f611531
+
+
+2014-10-28 15:45:43,567DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@8012e6
+
+
+2014-10-28 15:45:43,568DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration calendar -> org.hibernate.type.CalendarType@1ec9367a
+
+
+2014-10-28 15:45:43,568DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1ec9367a
+
+
+2014-10-28 15:45:43,569DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1ec9367a
+
+
+2014-10-28 15:45:43,569DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@31f16027
+
+
+2014-10-28 15:45:43,570DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration locale -> org.hibernate.type.LocaleType@6f440a7a
+
+
+2014-10-28 15:45:43,571DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6f440a7a
+
+
+2014-10-28 15:45:43,572DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration currency -> org.hibernate.type.CurrencyType@7b20f29d
+
+
+2014-10-28 15:45:43,572DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7b20f29d
+
+
+2014-10-28 15:45:43,573DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration timezone -> org.hibernate.type.TimeZoneType@43c83579
+
+
+2014-10-28 15:45:43,574DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@43c83579
+
+
+2014-10-28 15:45:43,575DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration class -> org.hibernate.type.ClassType@7b0aab7d
+
+
+2014-10-28 15:45:43,575DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7b0aab7d
+
+
+2014-10-28 15:45:43,577DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@347db2f9
+
+
+2014-10-28 15:45:43,577DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@347db2f9
+
+
+2014-10-28 15:45:43,578DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5aaa4bf8
+
+
+2014-10-28 15:45:43,580DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@22e7ef68
+
+
+2014-10-28 15:45:43,581DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration binary -> org.hibernate.type.BinaryType@a41f08
+
+
+2014-10-28 15:45:43,582DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration byte[] -> org.hibernate.type.BinaryType@a41f08
+
+
+2014-10-28 15:45:43,582DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration [B -> org.hibernate.type.BinaryType@a41f08
+
+
+2014-10-28 15:45:43,583DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6b555d95
+
+
+2014-10-28 15:45:43,583DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6b555d95
+
+
+2014-10-28 15:45:43,583DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6b555d95
+
+
+2014-10-28 15:45:43,584DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration image -> org.hibernate.type.ImageType@2337a8ec
+
+
+2014-10-28 15:45:43,586DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration characters -> org.hibernate.type.CharArrayType@11bccede
+
+
+2014-10-28 15:45:43,586DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration char[] -> org.hibernate.type.CharArrayType@11bccede
+
+
+2014-10-28 15:45:43,586DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration [C -> org.hibernate.type.CharArrayType@11bccede
+
+
+2014-10-28 15:45:43,587DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@76531d2a
+
+
+2014-10-28 15:45:43,587DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@76531d2a
+
+
+2014-10-28 15:45:43,588DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@76531d2a
+
+
+2014-10-28 15:45:43,589DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration text -> org.hibernate.type.TextType@6f55137
+
+
+2014-10-28 15:45:43,590DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration ntext -> org.hibernate.type.NTextType@bcb4598
+
+
+2014-10-28 15:45:43,598DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration blob -> org.hibernate.type.BlobType@54e94480
+
+
+2014-10-28 15:45:43,599DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@54e94480
+
+
+2014-10-28 15:45:43,599DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2829306c
+
+
+2014-10-28 15:45:43,605DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration clob -> org.hibernate.type.ClobType@3b42c565
+
+
+2014-10-28 15:45:43,605DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3b42c565
+
+
+2014-10-28 15:45:43,610DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration nclob -> org.hibernate.type.NClobType@73e48fa7
+
+
+2014-10-28 15:45:43,610DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@73e48fa7
+
+
+2014-10-28 15:45:43,611DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5576c3c4
+
+
+2014-10-28 15:45:43,611DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@24ccf86
+
+
+2014-10-28 15:45:43,613DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration serializable -> org.hibernate.type.SerializableType@23edc0ad
+
+
+2014-10-28 15:45:43,617DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration object -> org.hibernate.type.ObjectType@2b7f6b6d
+
+
+2014-10-28 15:45:43,617DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2b7f6b6d
+
+
+2014-10-28 15:45:43,618DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@387d3660
+
+
+2014-10-28 15:45:43,618DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@247cf599
+
+
+2014-10-28 15:45:43,618DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7e02286
+
+
+2014-10-28 15:45:43,618DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@bfa8f74
+
+
+2014-10-28 15:45:43,619DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6ee00ed0
+
+
+2014-10-28 15:45:43,619DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@37ecb28e
+
+
+2014-10-28 15:45:43,619DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@14bea551
+
+
+2014-10-28 15:45:43,619DEBUG[org.hibernate.type.BasicTypeRegistry]-Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7057737a
+
+
+2014-10-28 15:45:43,644INFO[org.hibernate.annotations.common.Version]-HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+
+
+2014-10-28 15:45:43,657INFO[org.hibernate.Version]-HHH000412: Hibernate Core {4.3.6.Final}
+
+
+2014-10-28 15:45:43,660INFO[org.hibernate.cfg.Environment]-HHH000206: hibernate.properties not found
+
+
+2014-10-28 15:45:43,662INFO[org.hibernate.cfg.Environment]-HHH000021: Bytecode provider name : javassist
+
+
+2014-10-28 15:45:43,675DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+
+
+2014-10-28 15:45:43,676DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+
+
+2014-10-28 15:45:43,677DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+
+
+2014-10-28 15:45:43,677DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+
+
+2014-10-28 15:45:43,678DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+
+
+2014-10-28 15:45:43,679DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+
+
+2014-10-28 15:45:43,680DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+
+
+2014-10-28 15:45:43,680DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+
+
+2014-10-28 15:45:43,681DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+
+
+2014-10-28 15:45:43,681DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+
+
+2014-10-28 15:45:43,682DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+
+
+2014-10-28 15:45:43,682DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+
+
+2014-10-28 15:45:43,683DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+
+
+2014-10-28 15:45:43,683DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+
+
+2014-10-28 15:45:43,684DEBUG[org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory]-Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+
+
+2014-10-28 15:45:43,687INFO[org.hibernate.cfg.Configuration]-HHH000043: Configuring from resource: /hibernate.cfg.xml
+
+
+2014-10-28 15:45:43,687INFO[org.hibernate.cfg.Configuration]-HHH000040: Configuration resource: /hibernate.cfg.xml

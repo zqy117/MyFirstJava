@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-10-28 14:02:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="Models.SalesOrder" table="SALESORDER">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="code" type="java.lang.String">
+            <column name="CODE" />
+        </property>
+        <property name="isEnable" type="java.lang.Boolean">
+            <column name="ISENABLE" />
+        </property>
+        <property name="idCard" type="java.lang.String">
+            <column name="IDCARD" />
+        </property>
+        <list name="tickets" inverse="false" table="TICKET" lazy="true">
+            <key>
+                <column name="ID" />
+            </key>
+            <list-index></list-index>
+            <one-to-many class="Models.Ticket" />
+        </list>
+    </class>
+</hibernate-mapping>

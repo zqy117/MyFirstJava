@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="Demo" namespace="/" extends="struts-default">
+		<!-- <action name="login">
+			<result>/index.jsp</result>
+		</action> -->
+		<!-- 验证struts和spring结合的例子 spring bean里面有Welcome对应的action -->
+		<action name="Welcome" class="Welcome">
+			<result name="SUCCESS">/welcome_user.jsp</result>
+		</action>
+		<action name="QuerySalesOrder" class="user.WelcomeUserAction" method="findSalseOrder"><!-- class="QuerySalesOrder" -->
+			<result name="SUCCESS">/queryOrder.jsp</result>
+		</action>
+		
+		<action name="BookTicketAction" class="user.BookTicketAction">
+			<result name="SUCCESS">/Succeed.jsp</result>
+		</action>
+	</package>
+</struts>

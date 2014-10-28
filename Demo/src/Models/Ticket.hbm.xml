@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-10-28 14:02:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="Models.Ticket" table="TICKET">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="fromStation" class="Models.Station" fetch="join">
+            <column name="FROMSTATION" />
+        </many-to-one>
+        <many-to-one name="toStation" class="Models.Station" fetch="join">
+            <column name="TOSTATION" />
+        </many-to-one>
+        <property name="carriageNumber" type="int">
+            <column name="CARRIAGENUMBER" />
+        </property>
+        <property name="seatNumber" type="int">
+            <column name="SEATNUMBER" />
+        </property>
+        <property name="idCard" type="java.lang.String">
+            <column name="IDCARD" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" />
+        </property>
+        <property name="ticketType">
+            <column name="TICKETTYPE" />
+            <type name="org.hibernate.type.EnumType">
+                <param name="type">12</param>
+                <param name="enumClass">Enum.TicketType</param>
+            </type>
+        </property>
+        <property name="isAvailable" type="java.lang.Boolean">
+            <column name="ISAVAILABLE" />
+        </property>
+    </class>
+</hibernate-mapping>
